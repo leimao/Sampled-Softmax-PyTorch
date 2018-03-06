@@ -44,7 +44,7 @@ The sampled softmax class, sampling functions, and other helper classes and func
 
 I added several options to the Word-level language modeling RNN api. But some of the options, such as ``tied``, might not be valid any more due to the modification in the code. I will fix these in the future if I get time.
 
-```bash
+```
 optional arguments:
   -h, --help             show this help message and exit
   --data DATA            location of the data corpus
@@ -84,6 +84,10 @@ To generate a sample essay:
 ```bash
 python generate.py
 ```
+
+######
+Show demo essay here.
+######
 
 
 ## Note
