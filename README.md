@@ -74,6 +74,8 @@ To train a language model using sampled softmax:
 python main.py --softmax_nsampled 200 --model GRU --lr 0.1 --nhid 200 --bptt 10 --batch_size 64
 ```
 
+Training performance:
+
 ```
 | epoch   1 |   200/ 1452 batches | lr 0.10 | ms/batch 215.45 | loss 11.36 | perplexity 85596.94
 | epoch   1 |   400/ 1452 batches | lr 0.10 | ms/batch 162.75 | loss  5.75 | perplexity   312.90
@@ -134,6 +136,8 @@ To generate a sample essay:
 ```bash
 python generate.py
 ```
+
+Generated sample essay:
 
 ```
 districts for years to import april as dozen ray ivy news director rebound from aetna keith william rica robinson an
